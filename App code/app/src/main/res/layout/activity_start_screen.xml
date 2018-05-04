@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreenActivity"
+    android:background="@drawable/bgclr">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="390dp"
+        android:layout_height="916dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gp" />
+
+    <ImageView
+        android:id="@+id/startsignup"
+        android:layout_width="247dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginTop="520dp"
+        android:onClick="openSignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signup" />
+
+    <ImageView
+        android:id="@+id/startlogin"
+        android:layout_width="247dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="520dp"
+        android:onClick="openLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginbtn" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="218dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appicon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="239dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="390dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welapp" />
+
+</android.support.constraint.ConstraintLayout>

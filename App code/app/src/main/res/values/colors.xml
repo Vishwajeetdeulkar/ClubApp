@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#353947</color>
+    <color name="colorPrimaryDark">#2E323D</color>
+    <color name="hintcolor">#454851</color>
+    <color name="colorAccent">#3D7BFF</color>
+    <color name="bgclr">#FBFAF7</color>
+    <color name="orange">#FFB792</color>
+    <color name="colorlightneon">#83FEE2</color>
+    <color name="whiteTransparentHalf">#F5F5F5</color>
+    <color name="likeBtnGray">#53586b</color>
+    <color name="likeBtnAccent">#FF2969</color>
+
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#4d85ff</color>
+    <color name="endblue">#428dff</color>
+</resources>
